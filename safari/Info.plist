@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Cornell Campbell</string>
+	<key>Builder Version</key>
+	<string>9537.76.4</string>
+	<key>CFBundleDisplayName</key>
+	<string>RedditMinimal</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.cornellcampbell.redditminimal</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Blacklist</key>
+		<array>
+			<string>http://code.reddit.com/*</string>
+			<string>http://blog.reddit.com/*</string>
+			<string>http://www.reddit.com/r/apple*</string>
+		</array>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>script.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>jquery.min.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>style.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Cleans up and minimizes Reddit.com</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.reddit.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://www.cornellcampbell.com/extensions/updates.plist</string>
+	<key>Website</key>
+	<string>http://cornellcampbell.com/extensions</string>
+</dict>
+</plist>
