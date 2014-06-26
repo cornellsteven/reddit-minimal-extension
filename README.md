@@ -7,4 +7,5 @@ For more information visit [http://cornellcampbell.com/extensions/posts/3/reddit
 ## Downloads
 
 [Safari Extension](http://cornellcampbell.com/extensions/download/RedditMinimal-1.3.1.safariextz/)
+
 [Chrome Extension](https://chrome.google.com/webstore/detail/redditminimal/nncgpcilaimaohejhbpafkmglncfigej)
